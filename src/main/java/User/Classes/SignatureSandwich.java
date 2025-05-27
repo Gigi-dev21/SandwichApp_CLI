@@ -37,7 +37,7 @@ public class SignatureSandwich extends Sandwich {
                 this.toasted,
                 quantity
         );
-        s.setName(name);  // <-- Set the name here!
+        s.setName(name);
         return s;
     }
 
@@ -73,6 +73,7 @@ public class SignatureSandwich extends Sandwich {
         System.out.printf("   Toasted: %s%n", this.toasted ? "Yes" : "No");
         
     }
+
     public SignatureSandwich cloneSandwich() {
         return new SignatureSandwich(size, bread, meat, cheese, toasted, new ArrayList<>(toppings), new ArrayList<>(sauces));
     }

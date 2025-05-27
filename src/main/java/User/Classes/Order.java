@@ -96,7 +96,7 @@ public class Order {
         customerName = null;
     }
 
-    // Optional toString for easy display
+
     @Override
     public String toString() {
         return "Order{" +

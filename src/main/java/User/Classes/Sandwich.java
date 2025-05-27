@@ -86,9 +86,6 @@ public class Sandwich {
         return quantity;
     }
 
-//    public String getName() {
-//        return String.format(meat + " Sandwich  ");
-//    }
 
     public String getName() {
         return name != null ? name : meat + " Sandwich";

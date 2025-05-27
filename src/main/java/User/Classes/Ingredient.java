@@ -49,7 +49,7 @@ class Sauce extends Ingredient {
     }
 }
 
-// Sides (included in sandwiches or optional)
+// Sides
 class Side extends Ingredient {
     public Side(String name) {
         super(name, 0);
@@ -65,5 +65,4 @@ class Bread extends Ingredient {
 
 
 
-// Other Items
 

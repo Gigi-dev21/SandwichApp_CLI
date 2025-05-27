@@ -27,10 +27,11 @@ public abstract class Items {
     public int getQuantity() {
         return quantity;
     }
+
     public double getTotalPrice() {
         return price * quantity;
     }
-    // You can override this in subclasses if needed
+
     @Override
     public String toString() {
         return name + " ($" + price + ")";
