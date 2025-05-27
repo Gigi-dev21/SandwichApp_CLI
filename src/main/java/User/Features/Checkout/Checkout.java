@@ -41,7 +41,7 @@ public class Checkout {
             Payment payment = new Payment();
             boolean success = payment.processPayment();
             if (success) {
-                System.out.println("\n✅ Payment successful. Thank you for your order!");
+                System.out.println("\nThank you for your order!");
 
                 // Create Transaction object
                 double totalWithTax = order.getOrderTotal(inventory) * (1 + order.getTax());
@@ -51,7 +51,7 @@ public class Checkout {
                         order.getCustomerName(),
                         order,
                         totalWithTax,
-                        "Credit Card", // or get from your Payment info
+                        "Credit Card",
                         Instant.now().toEpochMilli()
                 );
 

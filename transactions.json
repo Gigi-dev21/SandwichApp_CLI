@@ -1,0 +1,58 @@
+[ {
+  "customerName" : "Gigi",
+  "order" : {
+    "customerName" : "Gigi",
+    "sandwiches" : [ {
+      "name" : "Steak Sandwich",
+      "size" : "4",
+      "bread" : "wrap",
+      "meat" : "Steak",
+      "cheese" : "american",
+      "toppings" : [ "lettuce", "peppers", "onions" ],
+      "sauces" : [ "vinaigrette" ],
+      "sides" : [ "au jus", "sauce" ],
+      "toasted" : true,
+      "quantity" : 2
+    }, {
+      "name" : "BLT   ",
+      "size" : "8",
+      "bread" : "white",
+      "meat" : "bacon",
+      "cheese" : "cheddar",
+      "toppings" : [ "lettuce", "tomatoes", "peppers", "onions" ],
+      "sauces" : [ "vinaigrette", "mayo", "mustard", "ketchup" ],
+      "sides" : [ ],
+      "toasted" : true,
+      "quantity" : 2
+    } ],
+    "drinks" : [ {
+      "name" : "coke",
+      "price" : 2.0,
+      "quantity" : 2,
+      "size" : "small",
+      "totalPrice" : 4.0
+    }, {
+      "name" : "fanta",
+      "price" : 3.0,
+      "quantity" : 1,
+      "size" : "large",
+      "totalPrice" : 3.0
+    } ],
+    "chips" : [ {
+      "name" : "lays",
+      "price" : 1.5,
+      "quantity" : 1,
+      "totalPrice" : 1.5
+    }, {
+      "name" : "doritos",
+      "price" : 1.5,
+      "quantity" : 3,
+      "totalPrice" : 4.5
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 49.33,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748371463882
+} ]
