@@ -2,8 +2,6 @@ package Admin;
 
 //import Admin.AddInventory.InventoryManager;
 import Admin.ViewTransactions.TransactionDisplay;
-import Admin.ViewTransactions.TransactionLoader;
-import Admin.ViewTransactions.TransactionRecord;
 
 import java.util.List;
 import java.util.Scanner;
@@ -47,19 +45,11 @@ public class AdminUI {
 
                 switch (choice) {
                     case 1:
-                        // TODO: Implement viewTransactions()
-                        List<TransactionRecord> transactions = TransactionLoader.loadTransactionSummaries("transactions.json");
-                        if (transactions != null && !transactions.isEmpty()) {
-                            TransactionDisplay.displayTransactions(transactions);
-                        } else {
-                            System.out.println("No transactions found or error reading the file.");
-                        }
+                        String transactionFile = "transactions.json";
+                        TransactionDisplay.displayTransactions(transactionFile);
                         break;
+
                     case 2:
-//                        String filePath = "src/Inventory.json";
-//                        InventoryManager manager = new InventoryManager("Inventory.json");
-//                        manager.addInventoryItem(scanner);
-//                        manager.saveInventory();
                         break;
                     case 0:
                         System.out.println("\nExiting Admin Panel.");

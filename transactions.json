@@ -55,4 +55,22 @@
   "totalAmount" : 49.33,
   "paymentMethod" : "Credit Card",
   "timestamp" : 1748371463882
+}, {
+  "customerName" : "Dadu",
+  "order" : {
+    "customerName" : "Dadu",
+    "sandwiches" : [ ],
+    "drinks" : [ ],
+    "chips" : [ {
+      "name" : "lays",
+      "price" : 1.5,
+      "quantity" : 1,
+      "totalPrice" : 1.5
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 1.61,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748379317809
 } ]
