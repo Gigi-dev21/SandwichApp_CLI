@@ -102,12 +102,12 @@ public class Sandwich {
     public double calculatePrice(Inventory inventory) {
         double total = 0.0;
 
-        // Bread
+        // Bread price
         if (inventory.bread.containsKey(bread)) {
             total += inventory.bread.get(bread).get(size);
         }
 
-        // Meat
+        // Meat price
         if (inventory.meat.containsKey(meat)) {
             total += inventory.meat.get(meat).get(size);
         }
@@ -116,7 +116,7 @@ public class Sandwich {
             total += inventory.meat.get("Extra meat").get(size);
         }
 
-        // Cheese
+        // Cheese price
         if (inventory.cheese.containsKey(cheese)) {
             total += inventory.cheese.get(cheese).get(size);
         }
@@ -124,8 +124,6 @@ public class Sandwich {
         if (extraCheese && inventory.cheese.containsKey("extra cheese")) {
             total += inventory.cheese.get("extra cheese").get(size);
         }
-
-        // Sides (if they have price, you can add logic here)
 
         return total;
     }

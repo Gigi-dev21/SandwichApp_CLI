@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/SaveToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/DisplayCheckoutReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/DisplayCheckoutReceipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Chips/DisplayChipsReceipt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Drink/DisplayDrinkReceipt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/transactions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "User",
+    "git-widget-placeholder": "Homescreen",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ghelilatedros/Desktop/YearAppProjects/SandwichApp_CLI/src/main/java",
     "project.structure.last.edited": "Modules",
