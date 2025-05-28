@@ -36,7 +36,6 @@ public class AdminUI {
 
             System.out.println("\nPlease choose an option:");
             System.out.println("  1) View Transactions");
-            System.out.println("  2) Add to Inventory");
             System.out.println("  0) Exit ");
             System.out.print("\nYour choice: ");
 
@@ -47,9 +46,6 @@ public class AdminUI {
                     case 1:
                         String transactionFile = "transactions.json";
                         TransactionDisplay.displayTransactions(transactionFile);
-                        break;
-
-                    case 2:
                         break;
                     case 0:
                         System.out.println("\nExiting Admin Panel.");

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="" />
+    <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

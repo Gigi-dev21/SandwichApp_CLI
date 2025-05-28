@@ -49,6 +49,7 @@ public class TransactionDisplay {
 
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
             SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
+            System.out.println("");
 
             // Print header row
             System.out.printf(
