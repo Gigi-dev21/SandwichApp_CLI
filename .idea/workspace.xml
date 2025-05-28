@@ -7,8 +7,14 @@
     <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/SignatureSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/SignatureSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/NewOrderButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/NewOrderButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Sandwich/AddSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Sandwich/AddSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/transactions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Admin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Admin&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ghelilatedros/Desktop/YearAppProjects/SandwichApp_CLI/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "User",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ghelilatedros/Desktop/YearAppProjects/SandwichApp_CLI/src/main/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />

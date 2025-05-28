@@ -41,8 +41,7 @@ public class Checkout {
             Payment payment = new Payment();
             boolean success = payment.processPayment();
             if (success) {
-                System.out.println("\nThank you for your order!");
-
+                System.out.println("\n\033[1;35m🎉🎉 Thank you for your order, we hope to see you again soon! 🎉🎉\033[0m");
                 // Create Transaction object
                 double totalWithTax = order.getOrderTotal(inventory) * (1 + order.getTax());
                 totalWithTax = Math.round(totalWithTax * 100.0) / 100.0;
@@ -81,13 +80,10 @@ public class Checkout {
                 transactions = mapper.readValue(file, new TypeReference<List<Transaction>>() {
                 });
             }
-
             // Add the new transaction
             transactions.add(newTransaction);
-
             // Write the updated list back to the file
             mapper.writerWithDefaultPrettyPrinter().writeValue(file, transactions);
-
         } catch (IOException e) {
             System.out.println("Error saving transaction to JSON: " + e.getMessage());
         }

@@ -23,6 +23,7 @@ public class SignatureSandwich extends Sandwich {
         this.sauces.addAll(sauces);
     }
 
+    //create new copy//
     public Sandwich toSandwich(int quantity, String name) {
         Sandwich s = new Sandwich(
                 this.size,
@@ -74,7 +75,4 @@ public class SignatureSandwich extends Sandwich {
         
     }
 
-    public SignatureSandwich cloneSandwich() {
-        return new SignatureSandwich(size, bread, meat, cheese, toasted, new ArrayList<>(toppings), new ArrayList<>(sauces));
-    }
 }

@@ -73,4 +73,22 @@
   "totalAmount" : 1.61,
   "paymentMethod" : "Credit Card",
   "timestamp" : 1748379317809
+}, {
+  "customerName" : "hh",
+  "order" : {
+    "customerName" : "hh",
+    "sandwiches" : [ ],
+    "drinks" : [ ],
+    "chips" : [ {
+      "name" : "lays",
+      "price" : 1.5,
+      "quantity" : 3,
+      "totalPrice" : 4.5
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 4.82,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748464230667
 } ]
