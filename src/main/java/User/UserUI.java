@@ -24,6 +24,7 @@ public class UserUI {
         Controllers controllers = new Controllers();
         Scanner scanner = new Scanner(System.in);
 
+
         String name = controllers.getValidatedName("👤 Please enter your name: ");
         order.setCustomerName(name);
 
@@ -45,19 +46,20 @@ public class UserUI {
                 numInserted = Integer.parseInt(input);
                 switch (numInserted) {
                     case 1:
-                        NewOrderButton newOrderButton = new NewOrderButton(order,inventory);
+                        NewOrderButton newOrderButton = new NewOrderButton(order, inventory,controllers);
                         newOrderButton.addNewOrder();
                         break;
                     case 0:
                         System.out.println("\n\033[0;34mThank you for visiting DELI-cious Sandwiches. Goodbye! 👋\033[0m");
                         break;
                     default:
-                        System.out.println("\nInvalid input! Please enter 1 or 0.");
+                        System.out.println("\n\033[0;31mInvalid input! Please enter 1 or 0.\033[0m");
                         break;
                 }
             } catch (NumberFormatException e) {
-                System.out.println("\nInvalid input! Please enter a valid number.");
+                System.out.println("\n\033[0;31mInvalid input. Please enter a valid number.\033[0m");
             }
         }
+
     }
 }

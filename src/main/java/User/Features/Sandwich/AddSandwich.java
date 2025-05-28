@@ -80,7 +80,7 @@ public class AddSandwich {
             System.out.println("\033[0;35mSides selected: " + (sidesSelected.isEmpty() ? "None" : String.join(", ", sidesSelected)) + "\033[0m");
 
             // Toasted
-            boolean toasted = controllers.getYesNo("\nWould you like your sandwich toasted?");
+            boolean toasted = controllers.getYesNo("\nWould you like your sandwich toasted? (Y/N):");
             System.out.println("\033[0;35mToasted selection: " + (toasted ? "Yes" : "No") + "\033[0m");
 
             // Quantity

@@ -48,7 +48,9 @@ public class AdminUI {
                         TransactionDisplay.displayTransactions(transactionFile);
                         break;
                     case 0:
-                        System.out.println("\nExiting Admin Panel.");
+                        System.out.println("\n\033[1;35m🔒 Exiting Admin Panel... Goodbye!\033[0m");
+
+
                         break;
                     default:
                         System.out.println("Invalid option. Please choose 0, 1, or 2.");

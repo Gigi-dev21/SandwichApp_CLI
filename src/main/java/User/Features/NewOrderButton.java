@@ -6,6 +6,7 @@ package User.Features;
 
 import User.Classes.Inventory;
 import User.Classes.Order;
+import User.Controllers.Controllers;
 import User.Features.Checkout.Checkout;
 import User.Features.Chips.AddChips;
 import User.Features.Drink.AddDrink;
@@ -17,11 +18,13 @@ import java.util.Scanner;
 public class NewOrderButton {
     private final Order order;
     private final Inventory inventory;
+    private final Controllers controllers;
 
 
-    public NewOrderButton(Order order, Inventory inventory) {
+    public NewOrderButton(Order order, Inventory inventory, Controllers controllers) {
         this.order = order;
         this.inventory = inventory;
+        this.controllers = controllers;
 
     }
 
@@ -29,6 +32,11 @@ public class NewOrderButton {
         Scanner scanner = new Scanner(System.in);
         int numInserted = -1;
 
+        if (order.getCustomerName() == null) {
+            String name = controllers.getValidatedName("👤 Please enter your name: ");
+            order.setCustomerName(name);
+
+        }
         System.out.println("\n\033[0;33m=======================================");
         System.out.println("      Adding a New Order");
         System.out.println("=======================================\033[0m");
@@ -57,7 +65,7 @@ public class NewOrderButton {
                         new AddChips(order).displayChips();
                         break;
                     case 4:
-                        new SignatureSandwiches(inventory,order).displaySignatureSandwiches();
+                        new SignatureSandwiches(inventory, order).displaySignatureSandwiches();
                         break;
                     case 5:
                         if (order.isEmpty()) {
@@ -76,11 +84,11 @@ public class NewOrderButton {
                         }
                         break;
                     default:
-                        System.out.println("\nInvalid input! Please enter a number between 0 and 4.");
+                        System.out.println("\n\033[0;31mInvalid input! Please enter a number between 0 and 4.\033[0m");
                         break;
                 }
             } catch (NumberFormatException e) {
-                System.out.println("\nInvalid input! Please enter a valid number.");
+                System.out.println("\n\033[0;31mInvalid input. Please enter a valid number.\033[0m");
             }
         }
 
