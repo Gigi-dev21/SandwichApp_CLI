@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/model/Chip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/model/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/model/Sandwich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/model/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/FullTransactionRecord.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/ViewTransactions/TransactionRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/SignatureSandwich/CustomizeSandwich.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

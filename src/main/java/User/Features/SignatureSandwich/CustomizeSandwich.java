@@ -87,10 +87,11 @@ public class CustomizeSandwich {
         System.out.println("\n\033[1;32mFinal Customized Sandwich:\033[0m");
         sandwich.displayDetails();
 
-        boolean addToOrder = controller.getYesNo("\nDo you want to add this to your order? (Y/N): ");
-        int quantity = controller.getIntegerInput("\nHow many of this sandwich would you like?");
+        boolean addToOrder = controller.getYesNo("\nDo you want to add this to your order? (Y/N):");
+
 
         if (addToOrder) {
+            int quantity = controller.getIntegerInput("\nHow many of this sandwich would you like?");
             Sandwich finalized = sandwich.toSandwich(quantity, name);
             order.addSandwich(finalized);
             displaySandwichReceipt.displayTotalAddedSandwich(inventory);
