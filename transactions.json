@@ -137,4 +137,40 @@
   "totalAmount" : 77.47,
   "paymentMethod" : "Credit Card",
   "timestamp" : 1748466651605
+}, {
+  "customerName" : "Mebri",
+  "order" : {
+    "customerName" : "Mebri",
+    "sandwiches" : [ {
+      "name" : "Philly Cheese Steak   ",
+      "size" : "8",
+      "bread" : "white",
+      "meat" : "steak",
+      "cheese" : "american",
+      "toppings" : [ "peppers", "pickles", "guacamole", "mushrooms" ],
+      "sauces" : [ "mayo", "ketchup", "thousand islands", "vinaigrette" ],
+      "sides" : [ ],
+      "toasted" : true,
+      "quantity" : 2
+    } ],
+    "drinks" : [ {
+      "name" : "coke",
+      "price" : 2.5,
+      "quantity" : 4,
+      "size" : "medium",
+      "totalPrice" : 10.0
+    }, {
+      "name" : "sprite",
+      "price" : 3.0,
+      "quantity" : 5,
+      "size" : "large",
+      "totalPrice" : 15.0
+    } ],
+    "chips" : [ ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 44.94,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748470896256
 } ]

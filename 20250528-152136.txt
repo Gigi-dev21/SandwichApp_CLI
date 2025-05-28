@@ -1,0 +1,23 @@
+
+========= 🧾 ORDER RECEIPT =========
+Date: 2025-05-28 15:21:36
+Customer: Mebri
+------------------------------------
+🥪 Sandwiches:
+  1) 2x 8" Philly Cheese Steak     - $8.50 each
+     Bread: white | Cheese: american
+     Toppings: peppers, pickles, guacamole, mushrooms
+     Sauces: mayo, ketchup, thousand islands, vinaigrette
+     Toasted
+     ➤ Total: $17.00
+
+🥤 Drinks:
+  1) 4x medium coke - $2.50 each = $10.00
+  2) 5x large sprite - $3.00 each = $15.00
+
+------------------------------------
+Subtotal Sandwiches: $17.00
+Subtotal Drinks:     $25.00
+Tax (7%):            $2.94
+------------------------------------
+TOTAL:                $44.94
