@@ -4,16 +4,9 @@ import User.Classes.Inventory;
 import User.Classes.Order;
 import User.Classes.Transaction;
 import User.Controllers.Controllers;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Checkout {
     private final Order order;
