@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49eec511-2a0c-457f-919a-454b31348e01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/SaveToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Admin/AdminUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/SignatureSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/SignatureSandwich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Classes/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Classes/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/NewOrderButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/NewOrderButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Sandwich/AddSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Sandwich/AddSandwich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/DisplayCheckoutReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Features/Checkout/DisplayCheckoutReceipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Chips/DisplayChipsReceipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User/Features/Drink/DisplayDrinkReceipt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/transactions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "User",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ghelilatedros/Desktop/YearAppProjects/SandwichApp_CLI/src/main/java"
+    "last_opened_file_path": "/Users/ghelilatedros/Desktop/YearAppProjects/SandwichApp_CLI/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">

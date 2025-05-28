@@ -91,4 +91,50 @@
   "totalAmount" : 4.82,
   "paymentMethod" : "Credit Card",
   "timestamp" : 1748464230667
+}, {
+  "customerName" : "ww",
+  "order" : {
+    "customerName" : "ww",
+    "sandwiches" : [ {
+      "name" : "Ham Sandwich",
+      "size" : "4",
+      "bread" : "rye",
+      "meat" : "Ham",
+      "cheese" : "provolone",
+      "toppings" : [ "lettuce" ],
+      "sauces" : [ "mayo" ],
+      "sides" : [ "au jus" ],
+      "toasted" : false,
+      "quantity" : 5
+    }, {
+      "name" : "Roast beef Sandwich",
+      "size" : "4",
+      "bread" : "white",
+      "meat" : "Roast beef",
+      "cheese" : "swiss",
+      "toppings" : [ "onions" ],
+      "sauces" : [ "ketchup" ],
+      "sides" : [ "au jus", "sauce" ],
+      "toasted" : true,
+      "quantity" : 3
+    } ],
+    "drinks" : [ {
+      "name" : "sprite",
+      "price" : 2.5,
+      "quantity" : 3,
+      "size" : "medium",
+      "totalPrice" : 7.5
+    } ],
+    "chips" : [ {
+      "name" : "doritos",
+      "price" : 1.5,
+      "quantity" : 2,
+      "totalPrice" : 3.0
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 77.47,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748466651605
 } ]
