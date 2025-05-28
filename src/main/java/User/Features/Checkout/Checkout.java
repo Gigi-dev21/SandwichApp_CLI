@@ -46,6 +46,8 @@ public class Checkout {
                 double totalWithTax = order.getOrderTotal(inventory) * (1 + order.getTax());
                 totalWithTax = Math.round(totalWithTax * 100.0) / 100.0;
 
+                long orderTimestamp = Instant.now().toEpochMilli();
+
                 Transaction transaction = new Transaction(
                         order.getCustomerName(),
                         order,
@@ -53,9 +55,13 @@ public class Checkout {
                         "Credit Card",
                         Instant.now().toEpochMilli()
                 );
+                //save it as json//
+                SaveToFile saveToFile= new SaveToFile();
+                saveToFile.saveTransactionAsJson(transaction);
 
-                // Save transaction as JSON
-                saveTransactionAsJson(transaction);
+                //save it as text//
+                String receiptContent = displayCheckoutReceipt.getReceiptAsString();
+                saveToFile.saveReceiptToFile(receiptContent, orderTimestamp);
 
                 // Reset the order
                 order.clear();
@@ -67,27 +73,6 @@ public class Checkout {
             System.out.println("\n❌ Payment cancelled. Returning to main menu...");
         }
         return false;
-    }
-
-    private void saveTransactionAsJson(Transaction newTransaction) {
-        ObjectMapper mapper = new ObjectMapper();
-        File file = new File("transactions.json");
-        List<Transaction> transactions = new ArrayList<>();
-
-        try {
-            // Check if file exists and is not empty before reading
-            if (file.exists() && Files.size(Paths.get(file.getPath())) > 0) {
-                transactions = mapper.readValue(file, new TypeReference<List<Transaction>>() {
-                });
-            }
-            // Add the new transaction
-            transactions.add(newTransaction);
-            // Write the updated list back to the file
-            mapper.writerWithDefaultPrettyPrinter().writeValue(file, transactions);
-        } catch (IOException e) {
-            System.out.println("Error saving transaction to JSON: " + e.getMessage());
-        }
-
     }
 
 }

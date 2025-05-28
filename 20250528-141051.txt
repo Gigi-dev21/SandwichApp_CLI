@@ -1,0 +1,37 @@
+
+========= 🧾 ORDER RECEIPT =========
+Date: 2025-05-28 14:10:51
+Customer: ww
+------------------------------------
+🥪 Sandwiches:
+  1) 5x 4" Ham Sandwich  - $7.55 each
+     Bread: rye | Cheese: provolone
+     + Extra Cheese
+     Toppings: lettuce
+     Sauces: mayo
+     Sides: au jus
+     ➤ Total: $37.75
+
+  2) 3x 4" Roast beef Sandwich  - $8.05 each
+     Bread: white | Cheese: swiss
+     + Extra Meat
+     + Extra Cheese
+     Toppings: onions
+     Sauces: ketchup
+     Sides: au jus, sauce
+     Toasted
+     ➤ Total: $24.15
+
+🥤 Drinks:
+  1) 3x medium sprite - $2.50 each = $7.50
+
+🍟 Chips:
+  1) 2x doritos - $1.50 each = $3.00
+
+------------------------------------
+Subtotal Sandwiches: $61.90
+Subtotal Drinks:     $7.50
+Subtotal Chips:      $3.00
+Tax (7%):            $5.07
+------------------------------------
+TOTAL:                $77.47

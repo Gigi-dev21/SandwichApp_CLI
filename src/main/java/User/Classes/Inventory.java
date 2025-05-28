@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 
+//Loads the inventory.json
+//Jackson uses the JSON keys to match field names with Inventory class and automatically assigns the values accordingly.
 public class Inventory {
     public Map<String, Map<String, Double>> bread;
     public Map<String, Map<String, Double>> meat;
