@@ -68,12 +68,12 @@ public class AddSandwich {
 
             // Sauces
             List<String> selectedSauces = controllers.selectMultipleOptions("Choose your sauces", new ArrayList<>(inventory.sauces.keySet()));
-            System.out.println("\033[0;35mSauces selected: " + String.join(", ", selectedSauces) + "\033[0m");
+            System.out.println("\033[0;35mSauces selected: " + String.join(", ", selectedSauces) + "\033[0m\n");
 
             // Sides
             List<String> sidesSelected = new ArrayList<>();
             for (String side : inventory.sides.keySet()) {
-                if (controllers.getYesNo("\nWould you like " + side + " on the side? (Y/N): ")) {
+                if (controllers.getYesNo("Would you like " + side + " on the side? (Y/N): ")) {
                     sidesSelected.add(side);
                 }
             }

@@ -173,4 +173,108 @@
   "totalAmount" : 44.94,
   "paymentMethod" : "Credit Card",
   "timestamp" : 1748470896256
+}, {
+  "customerName" : "Gigi",
+  "order" : {
+    "customerName" : "Gigi",
+    "sandwiches" : [ {
+      "name" : "Ham Sandwich",
+      "size" : "12",
+      "bread" : "white",
+      "meat" : "Ham",
+      "cheese" : "cheddar",
+      "toppings" : [ "lettuce", "peppers", "onions" ],
+      "sauces" : [ "mayo", "mustard", "ketchup" ],
+      "sides" : [ "Spicy mayo" ],
+      "toasted" : true,
+      "quantity" : 3
+    }, {
+      "name" : "BLT   ",
+      "size" : "8",
+      "bread" : "white",
+      "meat" : "bacon",
+      "cheese" : "cheddar",
+      "toppings" : [ "lettuce", "tomatoes", "peppers", "onions" ],
+      "sauces" : [ "vinaigrette", "mustard" ],
+      "sides" : [ ],
+      "toasted" : true,
+      "quantity" : 2
+    } ],
+    "drinks" : [ {
+      "name" : "coke",
+      "price" : 3.0,
+      "quantity" : 6,
+      "size" : "large",
+      "totalPrice" : 18.0
+    }, {
+      "name" : "coke",
+      "price" : 2.0,
+      "quantity" : 1,
+      "size" : "small",
+      "totalPrice" : 2.0
+    } ],
+    "chips" : [ {
+      "name" : "lays",
+      "price" : 1.5,
+      "quantity" : 3,
+      "totalPrice" : 4.5
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 93.36,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748555446302
+}, {
+  "customerName" : "Kevin",
+  "order" : {
+    "customerName" : "Kevin",
+    "sandwiches" : [ {
+      "name" : "Ham Sandwich",
+      "size" : "12",
+      "bread" : "wheat",
+      "meat" : "Ham",
+      "cheese" : "american",
+      "toppings" : [ "lettuce", "peppers", "onions" ],
+      "sauces" : [ "mayo", "mustard", "ketchup" ],
+      "sides" : [ "Spicy mayo" ],
+      "toasted" : true,
+      "quantity" : 4
+    }, {
+      "name" : "BLT   ",
+      "size" : "8",
+      "bread" : "white",
+      "meat" : "bacon",
+      "cheese" : "cheddar",
+      "toppings" : [ "lettuce", "tomatoes", "peppers", "onions" ],
+      "sauces" : [ ],
+      "sides" : [ ],
+      "toasted" : true,
+      "quantity" : 1
+    } ],
+    "drinks" : [ {
+      "name" : "coke",
+      "price" : 2.0,
+      "quantity" : 10,
+      "size" : "small",
+      "totalPrice" : 20.0
+    }, {
+      "name" : "iced_tea",
+      "price" : 3.0,
+      "quantity" : 3,
+      "size" : "large",
+      "totalPrice" : 9.0
+    } ],
+    "chips" : [ {
+      "name" : "lays",
+      "price" : 1.5,
+      "quantity" : 3,
+      "totalPrice" : 4.5
+    } ],
+    "tax" : 0.07,
+    "empty" : false
+  },
+  "totalAmount" : 114.06,
+  "paymentMethod" : "Credit Card",
+  "timestamp" : 1748557227616
 } ]
