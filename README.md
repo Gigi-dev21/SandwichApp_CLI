@@ -42,19 +42,20 @@
     This enables the system to dynamically load and display the current inventory as well as all recorded transactions.
   </li>
 </ul>
-  <br/>
-  <h2>✅ Class Diagram</h2>
-  <p>This diagram represents the class structure of the system:</p>
-  <img src="src/Images/Classesdiagram.png" alt="Class Diagram" />
-
 <br/>
 
   <h2>✅ User Flow Diagram</h2>
   <p>This diagram illustrates the user interface flow of the application:</p>
   <img src="src/Images/UI.png" alt="UI Diagram" />
+  <br/>
+  
+  <h2>✅ Class Diagram</h2>
+  <p>This diagram represents the class structure of the system:</p>
+  <img src="src/Images/Classesdiagram.png" alt="Class Diagram" />
 
-<br/>
 
+
+ <br/>
   <h2>✅ Admin Home Page</h2>
   <p>
     Access to this page requires a password.  
