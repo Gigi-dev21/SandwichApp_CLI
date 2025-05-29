@@ -19,7 +19,7 @@
 
   <h2>🔄 User Flow Diagram</h2>
   <p>This diagram illustrates the user interface flow of the application:</p>
-  <img src="src/Images/UIDiagram.png" alt="UI Diagram" />
+  <img src="src/Images/UI.png" alt="UI Diagram" />
 
 <br/>
 
