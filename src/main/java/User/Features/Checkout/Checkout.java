@@ -39,6 +39,7 @@ public class Checkout {
                 double totalWithTax = order.getOrderTotal(inventory) * (1 + order.getTax());
                 totalWithTax = Math.round(totalWithTax * 100.0) / 100.0;
 
+                //Creates the timestamp//
                 long orderTimestamp = Instant.now().toEpochMilli();
 
                 Transaction transaction = new Transaction(
