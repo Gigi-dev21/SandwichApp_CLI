@@ -1,0 +1,36 @@
+
+========= 🧾 ORDER RECEIPT =========
+Date: 2025-05-29 14:50:46
+Customer: Gigi
+------------------------------------
+🥪 Sandwiches:
+  1) 3x 12" Ham Sandwich  - $15.25 each
+     Bread: white | Cheese: cheddar
+     + Extra Meat
+     Toppings: lettuce, peppers, onions
+     Sauces: mayo, mustard, ketchup
+     Sides: Spicy mayo
+     Toasted
+     ➤ Total: $45.75
+
+  2) 2x 8" BLT     - $8.50 each
+     Bread: white | Cheese: cheddar
+     Toppings: lettuce, tomatoes, peppers, onions
+     Sauces: vinaigrette, mustard
+     Toasted
+     ➤ Total: $17.00
+
+🥤 Drinks:
+  1) 6x large coke - $3.00 each = $18.00
+  2) 1x small coke - $2.00 each = $2.00
+
+🍟 Chips:
+  1) 3x lays - $1.50 each = $4.50
+
+------------------------------------
+Subtotal Sandwiches: $62.75
+Subtotal Drinks:     $20.00
+Subtotal Chips:      $4.50
+Tax (7%):            $6.11
+------------------------------------
+TOTAL:                $93.36
