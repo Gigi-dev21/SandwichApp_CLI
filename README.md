@@ -9,8 +9,27 @@
     This project is a digital Point of Sale (POS) system for <strong>DELI-cious</strong>, a custom sandwich shop.   
     The goal is to replace the existing paper-based order system with a faster and more efficient computer-based solution. 
   </p>
-
-
+<br/>
+<h2>✅ Data Handling</h2>
+<ul>
+  <li>
+    The inventory data is stored separately in its own JSON file.
+  </li>
+    <br/>
+  <li>
+    The application uses the Jackson JSON library to read both the transactions and inventory files, mapping the data into Java objects.
+  </li>
+  <br/>
+  <li>
+    When a customer places and confirms an order, the order details are saved as a transaction in a dedicated JSON file. Additionally, a separate text file is generated as 
+    a receipt.
+  </li>
+    <br/>
+  <li>
+    This enables the system to dynamically load and display the current inventory as well as all recorded transactions.
+  </li>
+</ul>
+  <br/>
   <h2>✅ Class Diagram</h2>
   <p>This diagram represents the class structure of the system:</p>
   <img src="src/Images/Classesdiagram.png" alt="Class Diagram" />
@@ -50,26 +69,7 @@
 <p>📷 More screenshots of the application’s screens can be found in the <code>images</code> folder.</p>
 
   
-<br/>
-<h2>✅ Data Handling</h2>
-<ul>
-  <li>
-    The inventory data is stored separately in its own JSON file.
-  </li>
-    <br/>
-  <li>
-    The application uses the Jackson JSON library to read both the transactions and inventory files, mapping the data into Java objects.
-  </li>
-  <br/>
-  <li>
-    When a customer places and confirms an order, the order details are saved as a transaction in a dedicated JSON file. Additionally, a separate text file is generated as 
-    a receipt.
-  </li>
-    <br/>
-  <li>
-    This enables the system to dynamically load and display the current inventory as well as all recorded transactions.
-  </li>
-</ul>
+
 
 <br/>
 
