@@ -100,8 +100,8 @@
      <a href="https://github.com/Gigi-dev21/SandwichApp_GUI">GUI Version GitHub Link</a>
        <br>
        <br>
-      <img src="src/Images/screen4.png" alt="Checkout Page UI" />
       <img src="src/Images/screen2.png" alt="Checkout Page UI" />
+      <img src="src/Images/screen4.png" alt="Checkout Page UI" />
       <img src="src/Images/screen3.png" alt="Checkout Page UI" />
       <img src="src/Images/screen1.png" alt="Checkout Page UI" />
 </body>
